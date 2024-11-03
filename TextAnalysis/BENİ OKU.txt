@@ -1,0 +1,3 @@
+Dosyada fazla boyuttan dolayı yazım hatalarını düzeltmek için gerekli dosyayı koyamadım. Google drive da  gerekli dosyanın linki bulunmaktadır. Dilerseniz dosyayı bin\Debug\net7.0-windows içine koyarak projedeki o kısmıda deneyebilirsiniz.
+
+https://drive.google.com/file/d/1WGLwzMB_3TkgMJGSb_S-7DbZenIkHB2O/view?usp=sharing

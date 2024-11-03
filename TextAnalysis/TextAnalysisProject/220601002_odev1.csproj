@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <OutputType>WinExe</OutputType>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="html-char-map-common.txt" />
+    <Content Include="html-char-map-full.txt" />
+    <Content Include="special-char-to-simple-char.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="ActivitiesWordUtils" Version="0.0.1" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.6.0" />
+    <PackageReference Include="NZemberek" Version="0.1.0" />
+    <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
+    <PackageReference Include="ZemberekDotNet.All" Version="0.18.2" />
+    <PackageReference Include="ZemberekDotNet.Classification" Version="0.18.1" />
+    <PackageReference Include="ZemberekDotNet.Core" Version="0.18.1" />
+    <PackageReference Include="ZemberekDotNet.LangID" Version="0.18.1" />
+    <PackageReference Include="ZemberekDotNet.LM" Version="0.18.1" />
+    <PackageReference Include="ZemberekDotNet.Morphology" Version="0.18.2" />
+    <PackageReference Include="ZemberekDotNet.NER" Version="0.18.1" />
+    <PackageReference Include="ZemberekDotNet.Normalization" Version="0.18.1" />
+    <PackageReference Include="ZemberekDotNet.Tokenization" Version="0.18.1" />
+  </ItemGroup>
+</Project>
